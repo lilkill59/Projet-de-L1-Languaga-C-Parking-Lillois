@@ -31,3 +31,71 @@ Ce projet est un système de gestion des parkings développé en langage C pour 
 ---
 
 ## Structure du Projet
+projet parking/
+
+│
+
+├── data/
+
+│   ├── parking-metropole.csv
+
+│   └── SuivieClient.csv
+
+│
+
+├── include/
+
+│   ├── Parking.h
+
+│   └── paths.h
+
+│
+
+├── src/
+
+│   ├── Main.c
+
+│   ├── LesParkings.c
+
+│   ├── LesClients.c
+
+│   ├── AfficheParking.c
+
+│   ├── AfficheParkings.c
+
+│   ├── AddParking.c
+
+│   ├── ModiffParking.c
+
+│   ├── SuprParking.c
+
+│   ├── MAJ_Entree.c
+
+│   ├── MAJ_Sortie.c
+
+│   ├── SaveEtatPark.c
+
+│   ├── SortieParking.c
+
+│   ├── SuivieClient.c
+
+│   ├── PlacesDispo.c
+
+│   └── ModeAdmin.c
+
+│
+
+├── build/
+
+│
+
+└── README.md
+
+---
+
+## Prérequis
+
+- Un compilateur C (comme `gcc`).
+- Un système d'exploitation compatible (Windows, Linux, macOS).
+
+---
